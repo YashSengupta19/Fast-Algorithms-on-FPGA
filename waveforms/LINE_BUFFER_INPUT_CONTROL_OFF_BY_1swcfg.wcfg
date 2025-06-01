@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="line_buffer_tb_vivado_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="line_buffer_tb_vivado" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="472.865 ns"></ZoomStartTime>
+      <ZoomEndTime time="577.428 ns"></ZoomEndTime>
+      <Cursor1Time time="560.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="374"></NameColumnWidth>
+      <ValueColumnWidth column_width="288"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wave_markers>
+      <marker label="" time="15379932" />
+      <marker label="" time="30740000" />
+      <marker label="" time="46100000" />
+      <marker label="" time="61460000" />
+      <marker label="" time="76820000" />
+   </wave_markers>
+   <wvobject type="group" fp_name="group4705">
+      <obj_property name="label">Main_signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group4700">
+      <obj_property name="label">Line_Buffer_Content</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group4699">
+      <obj_property name="label">Line_Buffer_POINTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group4706">
+      <obj_property name="label">Pixel_to_LB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/line_buffer_tb_vivado/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/line_buffer_tb_vivado/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/data_in">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/line_buffer_tb_vivado/data_valid">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/data_out">
+      <obj_property name="ElementShortName">data_out[95:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/line_buffer_tb_vivado/output_needs_to_be_read">
+      <obj_property name="ElementShortName">output_needs_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">output_needs_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/wr_ptr">
+      <obj_property name="ElementShortName">wr_ptr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/rd_ptr">
+      <obj_property name="ElementShortName">rd_ptr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/total_elements">
+      <obj_property name="ElementShortName">total_elements[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_elements[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/j">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/how_many_reads_to_validate">
+      <obj_property name="ElementShortName">how_many_reads_to_validate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">how_many_reads_to_validate[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/line_buffer_tb_vivado/continue_reading">
+      <obj_property name="ElementShortName">continue_reading</obj_property>
+      <obj_property name="ObjectShortName">continue_reading</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/expected_data">
+      <obj_property name="ElementShortName">expected_data[29:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_data[29:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/expected_output">
+      <obj_property name="ElementShortName">expected_output[95:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_output[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_0___0">
+      <obj_property name="ElementShortName">mem_channel_0___0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_0___0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_0___1">
+      <obj_property name="ElementShortName">mem_channel_0___1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_0___1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_0___2">
+      <obj_property name="ElementShortName">mem_channel_0___2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_0___2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_0___3">
+      <obj_property name="ElementShortName">mem_channel_0___3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_0___3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_1___0">
+      <obj_property name="ElementShortName">mem_channel_1___0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_1___0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_1___1">
+      <obj_property name="ElementShortName">mem_channel_1___1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_1___1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_1___2">
+      <obj_property name="ElementShortName">mem_channel_1___2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_1___2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_1___3">
+      <obj_property name="ElementShortName">mem_channel_1___3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_1___3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_2___0">
+      <obj_property name="ElementShortName">mem_channel_2___0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_2___0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_2___1">
+      <obj_property name="ElementShortName">mem_channel_2___1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_2___1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_2___2">
+      <obj_property name="ElementShortName">mem_channel_2___2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_2___2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/mem_channel_2___3">
+      <obj_property name="ElementShortName">mem_channel_2___3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_channel_2___3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/M">
+      <obj_property name="ElementShortName">M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/W">
+      <obj_property name="ElementShortName">W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/n">
+      <obj_property name="ElementShortName">n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/m">
+      <obj_property name="ElementShortName">m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/line_buffer_tb_vivado/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

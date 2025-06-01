@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="input_control_unit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="input_control_unit_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,409.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,746.101 ns"></ZoomEndTime>
+      <Cursor1Time time="3,670.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="258"></NameColumnWidth>
+      <ValueColumnWidth column_width="221"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wave_markers>
+      <marker label="" time="930000" />
+      <marker label="" time="330000" />
+      <marker label="" time="40000" />
+      <marker label="" time="340000" />
+      <marker label="" time="940000" />
+      <marker label="" time="1830000" />
+      <marker label="" time="2430000" />
+      <marker label="" time="3030000" />
+      <marker label="" time="1230000" />
+      <marker label="" time="1260000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/i_clk">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/NUM_CLOCK_CYCLE_FOR_REST_HIGH">
+      <obj_property name="ElementShortName">NUM_CLOCK_CYCLE_FOR_REST_HIGH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_CLOCK_CYCLE_FOR_REST_HIGH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/rst_counter">
+      <obj_property name="ElementShortName">rst_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rst_counter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/i_rst">
+      <obj_property name="ElementShortName">i_rst</obj_property>
+      <obj_property name="ObjectShortName">i_rst</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1721">
+      <obj_property name="label">MOST IMPORTANT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/i_pixel_data">
+         <obj_property name="ElementShortName">i_pixel_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_pixel_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/current_state">
+         <obj_property name="ElementShortName">current_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/i_pixel_data_valid">
+         <obj_property name="ElementShortName">i_pixel_data_valid</obj_property>
+         <obj_property name="ObjectShortName">i_pixel_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/fill_counter_UUT">
+         <obj_property name="ElementShortName">fill_counter_UUT[19:0]</obj_property>
+         <obj_property name="ObjectShortName">fill_counter_UUT[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/proc_finish">
+      <obj_property name="ElementShortName">proc_finish</obj_property>
+      <obj_property name="ObjectShortName">proc_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider211" type="divider">
+      <obj_property name="label">FILL_VERIFICATION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/monitor_index">
+      <obj_property name="ElementShortName">monitor_index[10:0]</obj_property>
+      <obj_property name="ObjectShortName">monitor_index[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/pixel_counter">
+      <obj_property name="ElementShortName">pixel_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_counter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/fill_count">
+      <obj_property name="ElementShortName">fill_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fill_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1517">
+      <obj_property name="label">LB_3_STUFF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/LB3/i_data_valid">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">i_data_valid</obj_property>
+         <obj_property name="ObjectShortName">i_data_valid</obj_property>
+         <obj_property name="label">LB_3_i_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB3/i_data">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         <obj_property name="label">LB_3_i_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB3/line[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+         <obj_property name="label">LB3_first_elem[0][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1720">
+      <obj_property name="label">Pixels_to_ALL_lb_data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/pixel_to_lb1">
+         <obj_property name="ElementShortName">pixel_to_lb1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_to_lb1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/pixel_to_lb2">
+         <obj_property name="ElementShortName">pixel_to_lb2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_to_lb2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/pixel_to_lb3">
+         <obj_property name="ElementShortName">pixel_to_lb3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_to_lb3[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/pixel_to_lb4">
+         <obj_property name="ElementShortName">pixel_to_lb4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_to_lb4[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/pixel_to_lb5">
+         <obj_property name="ElementShortName">pixel_to_lb5[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_to_lb5[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/pixel_to_lb6">
+         <obj_property name="ElementShortName">pixel_to_lb6[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pixel_to_lb6[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1709">
+      <obj_property name="label">TB_Hierarchical_assignment</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb1_cell">
+         <obj_property name="ElementShortName">lb1_cell[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb1_cell[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb2_cell">
+         <obj_property name="ElementShortName">lb2_cell[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb2_cell[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb3_cell">
+         <obj_property name="ElementShortName">lb3_cell[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb3_cell[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb4_cell">
+         <obj_property name="ElementShortName">lb4_cell[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb4_cell[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb5_cell">
+         <obj_property name="ElementShortName">lb5_cell[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb5_cell[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb6_cell">
+         <obj_property name="ElementShortName">lb6_cell[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb6_cell[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1483">
+      <obj_property name="label">First_ELEMENT_lb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb1_cell_0">
+         <obj_property name="ElementShortName">lb1_cell_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb1_cell_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb2_cell_0">
+         <obj_property name="ElementShortName">lb2_cell_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb2_cell_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb3_cell_0">
+         <obj_property name="ElementShortName">lb3_cell_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb3_cell_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb4_cell_0">
+         <obj_property name="ElementShortName">lb4_cell_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb4_cell_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb5_cell_0">
+         <obj_property name="ElementShortName">lb5_cell_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb5_cell_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb6_cell_0">
+         <obj_property name="ElementShortName">lb6_cell_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb6_cell_0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1524">
+      <obj_property name="label">2nd_last_element_lb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb1_cell_2nd_last_elem">
+         <obj_property name="ElementShortName">lb1_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb1_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb2_cell_2nd_last_elem">
+         <obj_property name="ElementShortName">lb2_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb2_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb3_cell_2nd_last_elem">
+         <obj_property name="ElementShortName">lb3_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb3_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb4_cell_2nd_last_elem">
+         <obj_property name="ElementShortName">lb4_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb4_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb5_cell_2nd_last_elem">
+         <obj_property name="ElementShortName">lb5_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb5_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb6_cell_2nd_last_elem">
+         <obj_property name="ElementShortName">lb6_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb6_cell_2nd_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1482">
+      <obj_property name="label">Last_ELEMENT_lb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb1_cell_last_elem">
+         <obj_property name="ElementShortName">lb1_cell_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb1_cell_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb2_cell_last_elem">
+         <obj_property name="ElementShortName">lb2_cell_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb2_cell_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb3_cell_last_elem">
+         <obj_property name="ElementShortName">lb3_cell_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb3_cell_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb4_cell_last_elem">
+         <obj_property name="ElementShortName">lb4_cell_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb4_cell_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb5_cell_last_elem">
+         <obj_property name="ElementShortName">lb5_cell_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb5_cell_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb6_cell_last_elem">
+         <obj_property name="ElementShortName">lb6_cell_last_elem[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lb6_cell_last_elem[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1710">
+      <obj_property name="label">Write_pointers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb1_wr_ptr">
+         <obj_property name="ElementShortName">lb1_wr_ptr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">lb1_wr_ptr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb2_wr_ptr">
+         <obj_property name="ElementShortName">lb2_wr_ptr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">lb2_wr_ptr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb3_wr_ptr">
+         <obj_property name="ElementShortName">lb3_wr_ptr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">lb3_wr_ptr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb4_wr_ptr">
+         <obj_property name="ElementShortName">lb4_wr_ptr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">lb4_wr_ptr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb5_wr_ptr">
+         <obj_property name="ElementShortName">lb5_wr_ptr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">lb5_wr_ptr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/lb6_wr_ptr">
+         <obj_property name="ElementShortName">lb6_wr_ptr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">lb6_wr_ptr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1719">
+      <obj_property name="label">Valid_signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/valid_to_lb1">
+         <obj_property name="ElementShortName">valid_to_lb1</obj_property>
+         <obj_property name="ObjectShortName">valid_to_lb1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/valid_to_lb2">
+         <obj_property name="ElementShortName">valid_to_lb2</obj_property>
+         <obj_property name="ObjectShortName">valid_to_lb2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/valid_to_lb3">
+         <obj_property name="ElementShortName">valid_to_lb3</obj_property>
+         <obj_property name="ObjectShortName">valid_to_lb3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/valid_to_lb4">
+         <obj_property name="ElementShortName">valid_to_lb4</obj_property>
+         <obj_property name="ObjectShortName">valid_to_lb4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/valid_to_lb5">
+         <obj_property name="ElementShortName">valid_to_lb5</obj_property>
+         <obj_property name="ObjectShortName">valid_to_lb5</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/valid_to_lb6">
+         <obj_property name="ElementShortName">valid_to_lb6</obj_property>
+         <obj_property name="ObjectShortName">valid_to_lb6</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1712" type="divider">
+      <obj_property name="label">READING_out_ip_ACROSS_channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1823">
+      <obj_property name="label">LB6_data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/LB6/i_data_valid">
+         <obj_property name="ElementShortName">i_data_valid</obj_property>
+         <obj_property name="ObjectShortName">i_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/i_data">
+         <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/wrPntr">
+         <obj_property name="ElementShortName">wrPntr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wrPntr[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[0]">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[1]">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[2]">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[3]">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[4]">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[5]">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[6]">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[7]">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[8]">
+         <obj_property name="ElementShortName">[8][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[9]">
+         <obj_property name="ElementShortName">[9][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[10]">
+         <obj_property name="ElementShortName">[10][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[11]">
+         <obj_property name="ElementShortName">[11][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[12]">
+         <obj_property name="ElementShortName">[12][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[13]">
+         <obj_property name="ElementShortName">[13][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[14]">
+         <obj_property name="ElementShortName">[14][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[15]">
+         <obj_property name="ElementShortName">[15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[16]">
+         <obj_property name="ElementShortName">[16][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[17]">
+         <obj_property name="ElementShortName">[17][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[18]">
+         <obj_property name="ElementShortName">[18][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[19]">
+         <obj_property name="ElementShortName">[19][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[20]">
+         <obj_property name="ElementShortName">[20][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[21]">
+         <obj_property name="ElementShortName">[21][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[22]">
+         <obj_property name="ElementShortName">[22][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[23]">
+         <obj_property name="ElementShortName">[23][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[24]">
+         <obj_property name="ElementShortName">[24][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[25]">
+         <obj_property name="ElementShortName">[25][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[26]">
+         <obj_property name="ElementShortName">[26][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[27]">
+         <obj_property name="ElementShortName">[27][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[28]">
+         <obj_property name="ElementShortName">[28][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/line[29]">
+         <obj_property name="ElementShortName">[29][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus1833">
+      <obj_property name="label">FIRST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[95]">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">[95]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[94]">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">[94]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[93]">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">[93]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[92]">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">[92]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[91]">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">[91]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[90]">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">[90]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[89]">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">[89]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[88]">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">[88]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus1824">
+      <obj_property name="label">LAST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[383]">
+         <obj_property name="ElementShortName">[383]</obj_property>
+         <obj_property name="ObjectShortName">[383]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[382]">
+         <obj_property name="ElementShortName">[382]</obj_property>
+         <obj_property name="ObjectShortName">[382]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[381]">
+         <obj_property name="ElementShortName">[381]</obj_property>
+         <obj_property name="ObjectShortName">[381]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[380]">
+         <obj_property name="ElementShortName">[380]</obj_property>
+         <obj_property name="ObjectShortName">[380]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[379]">
+         <obj_property name="ElementShortName">[379]</obj_property>
+         <obj_property name="ObjectShortName">[379]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[378]">
+         <obj_property name="ElementShortName">[378]</obj_property>
+         <obj_property name="ObjectShortName">[378]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[377]">
+         <obj_property name="ElementShortName">[377]</obj_property>
+         <obj_property name="ObjectShortName">[377]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel[376]">
+         <obj_property name="ElementShortName">[376]</obj_property>
+         <obj_property name="ObjectShortName">[376]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/i_clk">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/current_state">
+      <obj_property name="ElementShortName">current_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB1/o_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_data[95:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[95:0]</obj_property>
+      <obj_property name="label">o_data_1[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB2/o_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_data[95:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[95:0]</obj_property>
+      <obj_property name="label">o_data_2[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB3/o_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_data[95:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[95:0]</obj_property>
+      <obj_property name="label">o_data_3[395:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB4/o_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_data[95:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[95:0]</obj_property>
+      <obj_property name="label">o_data_4[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB5/o_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_data[95:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[95:0]</obj_property>
+      <obj_property name="label">o_data_5[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/o_data">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_data[95:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[95:0]</obj_property>
+      <obj_property name="label">o_data_6[95:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/input_tile">
+      <obj_property name="ElementShortName">input_tile[2:0][3:0][3:0][8:0]</obj_property>
+      <obj_property name="ObjectShortName">input_tile[2:0][3:0][3:0][8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/input_control_unit_tb/input_tile[2]">
+         <obj_property name="ElementShortName">[2][3:0][3:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][3:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/input_tile[1]">
+         <obj_property name="ElementShortName">[1][3:0][3:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][3:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/input_control_unit_tb/input_tile[0]">
+         <obj_property name="ElementShortName">[0][3:0][3:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][3:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/o_input_tile_across_all_channel">
+      <obj_property name="ElementShortName">o_input_tile_across_all_channel[383:0]</obj_property>
+      <obj_property name="ObjectShortName">o_input_tile_across_all_channel[383:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/o_ready">
+      <obj_property name="ElementShortName">o_ready</obj_property>
+      <obj_property name="ObjectShortName">o_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/read_cycle">
+      <obj_property name="ElementShortName">read_cycle[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cycle[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/read_counter_UUT">
+      <obj_property name="ElementShortName">read_counter_UUT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">read_counter_UUT[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/lb1_is_ready_to_be_read">
+      <obj_property name="ElementShortName">lb1_is_ready_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">lb1_is_ready_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB1/rdPntr">
+      <obj_property name="ElementShortName">rdPntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdPntr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/lb2_is_ready_to_be_read">
+      <obj_property name="ElementShortName">lb2_is_ready_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">lb2_is_ready_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB2/rdPntr">
+      <obj_property name="ElementShortName">rdPntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdPntr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/lb3_is_ready_to_be_read">
+      <obj_property name="ElementShortName">lb3_is_ready_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">lb3_is_ready_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB3/rdPntr">
+      <obj_property name="ElementShortName">rdPntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdPntr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/lb4_is_ready_to_be_read">
+      <obj_property name="ElementShortName">lb4_is_ready_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">lb4_is_ready_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB4/rdPntr">
+      <obj_property name="ElementShortName">rdPntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdPntr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/lb5_is_ready_to_be_read">
+      <obj_property name="ElementShortName">lb5_is_ready_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">lb5_is_ready_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB5/rdPntr">
+      <obj_property name="ElementShortName">rdPntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdPntr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_control_unit_tb/UUT/lb6_is_ready_to_be_read">
+      <obj_property name="ElementShortName">lb6_is_ready_to_be_read</obj_property>
+      <obj_property name="ObjectShortName">lb6_is_ready_to_be_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_control_unit_tb/UUT/LB6/rdPntr">
+      <obj_property name="ElementShortName">rdPntr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdPntr[4:0]</obj_property>
+   </wvobject>
+</wave_config>

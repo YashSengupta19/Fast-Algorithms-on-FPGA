@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PE_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PE_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="200.309 ns"></ZoomEndTime>
+      <Cursor1Time time="57.444 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="374"></NameColumnWidth>
+      <ValueColumnWidth column_width="313"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wave_markers>
+      <marker label="" time="20000" />
+      <marker label="" time="90000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/PE_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/Kernel">
+      <obj_property name="ElementShortName">Kernel[215:0]</obj_property>
+      <obj_property name="ObjectShortName">Kernel[215:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/inpData">
+      <obj_property name="ElementShortName">inpData[383:0]</obj_property>
+      <obj_property name="ObjectShortName">inpData[383:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/outData">
+      <obj_property name="ElementShortName">outData[23:0]</obj_property>
+      <obj_property name="ObjectShortName">outData[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/finalCompute">
+      <obj_property name="ElementShortName">finalCompute</obj_property>
+      <obj_property name="ObjectShortName">finalCompute</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/KERNEL_SIZE">
+      <obj_property name="ElementShortName">KERNEL_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">KERNEL_SIZE[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/INPUT_TILE_SIZE">
+      <obj_property name="ElementShortName">INPUT_TILE_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_TILE_SIZE[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/INPUT_DATA_WIDTH">
+      <obj_property name="ElementShortName">INPUT_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/KERNEL_DATA_WIDTH">
+      <obj_property name="ElementShortName">KERNEL_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">KERNEL_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/CHANNELS">
+      <obj_property name="ElementShortName">CHANNELS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CHANNELS[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/OUTPUT_WIDTH">
+      <obj_property name="ElementShortName">OUTPUT_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider297" type="divider">
+      <obj_property name="label">Internal_sig_PE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/kernel_reg">
+      <obj_property name="ElementShortName">kernel_reg[2:0][2:0][2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_reg[2:0][2:0][2:0][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/input_reg">
+      <obj_property name="ElementShortName">input_reg[3:0][3:0][2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">input_reg[3:0][3:0][2:0][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg">
+      <obj_property name="ElementShortName">input_temp_reg[3:0][3:0][2:0][8:0]</obj_property>
+      <obj_property name="ObjectShortName">input_temp_reg[3:0][3:0][2:0][8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_temp_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][8:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][8:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg">
+      <obj_property name="ElementShortName">input_transformed_reg[3:0][3:0][2:0][9:0]</obj_property>
+      <obj_property name="ObjectShortName">input_transformed_reg[3:0][3:0][2:0][9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][9:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][9:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][9:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/input_transformed_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg">
+      <obj_property name="ElementShortName">kernel_temp_reg[3:0][2:0][2:0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_temp_reg[3:0][2:0][2:0][10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[3]">
+         <obj_property name="ElementShortName">[3][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][2:0][2:0][10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[2]">
+         <obj_property name="ElementShortName">[2][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][2:0][2:0][10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[1]">
+         <obj_property name="ElementShortName">[1][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][2:0][2:0][10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[0]">
+         <obj_property name="ElementShortName">[0][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][2:0][2:0][10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[3]">
+         <obj_property name="ElementShortName">[3][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][2:0][2:0][10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[2]">
+         <obj_property name="ElementShortName">[2][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][2:0][2:0][10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[1]">
+         <obj_property name="ElementShortName">[1][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][2:0][2:0][10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_temp_reg[0]">
+         <obj_property name="ElementShortName">[0][2:0][2:0][10:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][2:0][2:0][10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg">
+      <obj_property name="ElementShortName">kernel_transformed_reg[3:0][3:0][2:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_transformed_reg[3:0][3:0][2:0][13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][13:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][13:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][13:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][13:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/kernel_transformed_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][13:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg">
+      <obj_property name="ElementShortName">ewmm_reg[3:0][3:0][2:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">ewmm_reg[3:0][3:0][2:0][19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][19:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][19:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][19:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][19:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[3]">
+         <obj_property name="ElementShortName">[3][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0][2:0][19:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[2]">
+         <obj_property name="ElementShortName">[2][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0][2:0][19:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][19:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/ewmm_reg[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][19:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/output_reg1">
+      <obj_property name="ElementShortName">output_reg1[1:0][3:0][2:0][21:0]</obj_property>
+      <obj_property name="ObjectShortName">output_reg1[1:0][3:0][2:0][21:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg1[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][21:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][21:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg1[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][21:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][21:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg1[1]">
+         <obj_property name="ElementShortName">[1][3:0][2:0][21:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0][2:0][21:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg1[0]">
+         <obj_property name="ElementShortName">[0][3:0][2:0][21:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0][2:0][21:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/output_reg2">
+      <obj_property name="ElementShortName">output_reg2[1:0][1:0][2:0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">output_reg2[1:0][1:0][2:0][23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg2[1]">
+         <obj_property name="ElementShortName">[1][1:0][2:0][23:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][1:0][2:0][23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg2[0]">
+         <obj_property name="ElementShortName">[0][1:0][2:0][23:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][1:0][2:0][23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg2[1]">
+         <obj_property name="ElementShortName">[1][1:0][2:0][23:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][1:0][2:0][23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_reg2[0]">
+         <obj_property name="ElementShortName">[0][1:0][2:0][23:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][1:0][2:0][23:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg">
+      <obj_property name="ElementShortName">output_final_reg[1:0][1:0][24:0]</obj_property>
+      <obj_property name="ObjectShortName">output_final_reg[1:0][1:0][24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[1]">
+         <obj_property name="ElementShortName">[1][1:0][24:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][1:0][24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[1][1]">
+            <obj_property name="ElementShortName">[1][24:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][24:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[1][0]">
+            <obj_property name="ElementShortName">[0][24:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][24:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[0]">
+         <obj_property name="ElementShortName">[0][1:0][24:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][1:0][24:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[0][1]">
+            <obj_property name="ElementShortName">[1][24:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][24:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[0][0]">
+            <obj_property name="ElementShortName">[0][24:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][24:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[1]">
+         <obj_property name="ElementShortName">[1][1:0][24:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][1:0][24:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/PE_tb/uut/output_final_reg[0]">
+         <obj_property name="ElementShortName">[0][1:0][24:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][1:0][24:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider600" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/uut/LoadDone">
+      <obj_property name="ElementShortName">LoadDone</obj_property>
+      <obj_property name="ObjectShortName">LoadDone</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/uut/TransStage1Done">
+      <obj_property name="ElementShortName">TransStage1Done</obj_property>
+      <obj_property name="ObjectShortName">TransStage1Done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/uut/TransStage2Done">
+      <obj_property name="ElementShortName">TransStage2Done</obj_property>
+      <obj_property name="ObjectShortName">TransStage2Done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/uut/ewmmDone">
+      <obj_property name="ElementShortName">ewmmDone</obj_property>
+      <obj_property name="ObjectShortName">ewmmDone</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/uut/out1Done">
+      <obj_property name="ElementShortName">out1Done</obj_property>
+      <obj_property name="ObjectShortName">out1Done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/PE_tb/uut/out2Done">
+      <obj_property name="ElementShortName">out2Done</obj_property>
+      <obj_property name="ObjectShortName">out2Done</obj_property>
+   </wvobject>
+</wave_config>
